@@ -23,8 +23,13 @@ header, .headers_div{
 .image2{
     width: 320px;
 }
+.for_pic{
+    position: relative;
+    top: 53px;
+}
 .mobile{
-    display: none;
+    display: flex;
+    width: 100%;
 }
 .desktop{
     display: none;
@@ -39,6 +44,10 @@ h1{
     line-height: 36px;
     text-align: center;
     width: 320px;
+}
+.text h1{
+    font-size: 16px;
+    line-height: 24px;
 }
 p{
     font-weight: 400;
@@ -99,10 +108,25 @@ h2{
     letter-spacing: 0.38px;
     margin-bottom: 81px;
     border-radius: 3.93px;
+    padding-left:16px;
+    height: 200px;
+    padding-top: 21px;
 }
 .hylo{
+   display: flex;
+   flex-direction: row; 
+   gap: 15px;
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+.kyle-text{
     display: flex;
     flex-direction: column;
+}
+.kyle{
+    color: #07043B;
+    font-size: 10px;
+    font-weight: 700;
 }
 .blue_div{
     height: 345px;
@@ -131,6 +155,12 @@ h2{
     gap: 6px;
     margin-top: 15px;
 }
+.for-row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
 footer{
     background-color: #07043B;
     color: #ffffff;
@@ -156,6 +186,159 @@ footer{
     justify-content: center;
     gap: 15px;
 }
-@media(min-width: 1440px){
-    
+.boy{
+    width: 32px;
+    height: 32px;
+    border-radius: 15px;
 }
+@media(min-width: 1440px){
+    header{
+        padding: 20px 82px;
+    }
+    .logo{
+            width: 110px;
+        }
+    .headers_div{
+        font-size: 16px;
+        line-height: 18.09px;
+    }
+    .first_div{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 230px;
+
+    } 
+    .image{
+            width: 640px;
+    }  
+    .first_div h1{
+        font-size: 40px;
+        line-height: 60px;
+        width: 627px;
+        text-align: left;
+    } 
+    .first_div p{
+        font-size: 17px;
+        line-height: 24px;
+        letter-spacing: 0.53px;
+        text-align: left;
+        width: 585px;
+    }
+    .get{
+        width: 200px;
+        height: 48px;
+        border-radius: 4px;
+    }
+    .get:hover{
+        background-color: #6C9BFF;
+        cursor: pointer;
+    }
+    .second-div{
+        align-items: baseline;
+    }
+    .for-row{
+        flex-direction: row;
+    }
+    .for-row input{
+        height: 44px;
+    }
+    .desktop{
+        display: block;
+    }
+    .mobile{
+        display: none;
+    }
+    .for_pic{
+        top: 52px;
+    }
+    .image2{
+        width: 552px;
+    }
+    .big_div{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+    .big_div h1{
+        font-size: 37px;
+        line-height: 46.96px;
+        width: 648px;
+    }
+    .big_div p{
+        font-size: 16px;
+        line-height: 24px;
+        width: 529px;
+        text-align: left;
+    }
+    .line_div{
+        align-items: baseline;
+    }
+    .line_div h2:hover, .for_line:hover, .line_div h2 span:hover{
+        color: #71DFCC;
+        cursor: pointer;
+    }
+    .page{
+        width: 356px;
+        padding: 16px;
+    }
+    .page p{
+        font-size: 13px;
+        line-height: 23px;
+        letter-spacing: 0.5px;
+        width: 289px;
+    }
+    .blue_text h1{
+        font-size: 31px;
+        line-height: 48px;
+        width: 347px;
+        text-align: left;
+    }
+    .blue_text p{
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        letter-spacing: 0.5px;
+        width: 533px;
+    }
+    .blue_div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .blue_buttons input {
+        width: 480px;
+    }
+    .blue_buttons{
+        align-items: baseline;
+        gap: 25px;
+    }
+    footer{
+        flex-direction: row;
+        height: 391px;
+        justify-content: space-around;
+    }
+    .little_texts{
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 60px;
+        gap: 15px;
+    }
+    .logos_div{
+        margin-top: -100px;
+        gap: 20px;
+    }
+    .aa{
+        margin-bottom: 33px;
+    }
+    a:hover{
+        color: #6C9BFF;
+        cursor: pointer;
+    }
+    .soc path:hover{
+        fill:#6C9BFF;
+        cursor: pointer;
+    }
+}
+
