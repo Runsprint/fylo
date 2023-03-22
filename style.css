@@ -68,6 +68,7 @@ input{
     width: 250px;
     height: 35px;
     border: none;
+    margin-top: 10px
 }
 .first_div, .second-div, .big_div{
     display: flex;
@@ -191,7 +192,28 @@ footer{
     height: 32px;
     border-radius: 15px;
 }
+.none{
+    display: none;
+    position: relative;
+    right: 67px;
+    top: -64px;
+    font-size: 10px;
+}
+.none2{
+    display: none;
+    position: relative;
+    right: 64px;
+    font-size: 10px;
+}
 @media(min-width: 1440px){
+    .none2{
+        right: -1px;
+        bottom: 13px;
+    }
+    .none{
+        right:577px;
+        top: 39px;
+    }
     header{
         padding: 20px 82px;
     }
@@ -243,6 +265,7 @@ footer{
     }
     .for-row input{
         height: 44px;
+        width: 348px;
     }
     .desktop{
         display: block;
